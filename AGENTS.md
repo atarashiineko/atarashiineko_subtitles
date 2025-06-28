@@ -109,4 +109,28 @@ This agent parses TODO.md for unchecked `.ass` subtitle files, processes exactly
 * Preserve personal directives: professional tone, ASCII punctuation, no extraneous comments
 * Do not close code fences inside subtitle output sessions when the user explicitly instructs not to
 
-## End of agents.md
+## Example output in file
+```
+Dialogue: 0,0:00:00.50,0:00:03.46,Default,,0,0,0,,You {\c&H33CCFF&}heard{\c&H33CCFF&} that {\c&H66FF66&}already{\c&H66FF66&}?
+Dialogue: 0,0:00:00.52,0:00:03.59,Default-ja,,0,0,0,,（大石）しかし {\c&H33CCFF&}耳{\c&H33CCFF&}が {\c&H66FF66&}早い{\c&H66FF66&}なぁ
+
+Dialogue: 0,0:00:05.66,0:00:09.47,Default-ja,,0,0,0,,（大石） 私は {\c&HFF99CC&}悟史(さとし)君{\c&HFF99CC&}が {\c&HFF6666&}犯人{\c&HFF6666&}の一点読みでしたからね
+Dialogue: 0,0:00:05.70,0:00:09.30,Default,,0,0,0,,I was quite sure that {\c&HFF99CC&}Satoshi-kun{\c&HFF99CC&} was the {\c&HFF6666&}suspect{\c&HFF6666&}.
+
+Dialogue: 0,0:00:09.80,0:00:13.87,Default-ja,,0,0,0,,（詩音）{\c&H99FFFF&}聞かせてください{\c&H99FFFF&} {\c&H33FFFF&}真犯人{\c&H33FFFF&}って {\c&HFFCC66&}一体{\c&HFFCC66&}{\c&HFFCC99&}何者{\c&HFFCC99&}です？
+Dialogue: 0,0:00:09.87,0:00:14.04,Default,,0,0,0,,{\c&H99FFFF&}Please tell me{\c&H99FFFF&}. {\c&HFFCC99&}Who{\c&HFFCC99&} {\c&HFFCC66&}exactly{\c&HFFCC66&} is the {\c&H33FFFF&}true suspect{\c&H33FFFF&}?
+
+Dialogue: 0,0:00:14.67,0:00:16.64,Default-ja,,0,0,0,,{\c&H66FFFF&}異常者{\c&H66FFFF&}とか聞きましたけど
+Dialogue: 0,0:00:14.68,0:00:16.54,Default,,0,0,0,,I heard he’s {\c&H66FFFF&}abnormal{\c&H66FFFF&}.
+
+```
+## The Goal
+
+I edit the subtitle file so the Japanese line and the English line appear together, and I color-code each matching word pair. For example, the word 耳 and its translation “heard” both get the same blue tag. When I watch the episode, I can glance at the colors and instantly see which words match without stopping the video.
+The `.ass` format lets me place those color tags directly inside the subtitle text, so the timing and layout stay unchanged. I work in small chunks of ten lines or fewer, add colors, save the file, and mark that episode as done in my to-do list.
+By re-using a light, high-contrast palette across the whole episode, each color becomes a mini flashcard. Seeing the same hue pop up again reinforces the meaning, and over time I start recalling the Japanese word the moment I see its color. Watching anime turns into a live vocabulary drill that is fun and natural.
+This is my design.
+
+
+
+
