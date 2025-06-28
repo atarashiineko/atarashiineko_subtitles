@@ -1,7 +1,7 @@
 # Files to process:
 - [x] (Hi10)_Higurashi_no_Naku_Koro_ni_-_01_(DVD_480p)_(Exiled-Destiny).ja-en.ass
 - [x] (Hi10)_Higurashi_no_Naku_Koro_ni_-_02_(DVD_480p)_(Exiled-Destiny).ja-en.ass
-- [ ] (Hi10)_Higurashi_no_Naku_Koro_ni_-_03_(DVD_480p)_(Exiled-Destiny).ja-en.ass
+- [x] (Hi10)_Higurashi_no_Naku_Koro_ni_-_03_(DVD_480p)_(Exiled-Destiny).ja-en.ass
 - [ ] (Hi10)_Higurashi_no_Naku_Koro_ni_-_04_(DVD_480p)_(Exiled-Destiny).ja-en.ass
 - [ ] (Hi10)_Higurashi_no_Naku_Koro_ni_-_05_(DVD_480p)_(Exiled-Destiny).ja-en.ass
 - [ ] (Hi10)_Higurashi_no_Naku_Koro_ni_-_06_(DVD_480p)_(Exiled-Destiny).ja-en.ass
