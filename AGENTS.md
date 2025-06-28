@@ -162,17 +162,23 @@ This is my design.
 ## The requirement to automate routine repetitive commands. Secondary objective
 
 Read manual at:
-- scripts\task_scoped_command_wrappers_manual_index.md
-- scripts\task_scoped_bash_command_wrappers_manual.md
-- scripts\task_scoped_powershell_command_wrappers_manual.md
-- scripts\task_scoped_python_command_wrappers_manual.md
+- scripts/task_scoped_command_wrappers_manual_index.md
+- scripts/task_scoped_bash_command_wrappers_manual.md
+- scripts/task_scoped_powershell_command_wrappers_manual.md
+- scripts/task_scoped_python_command_wrappers_manual.md
 
 Use your best judgement when you see a need to create a new script for repetitive command that you use. 
 
-Extend the existing scripts or create new scripts in the folder `scripts\`
+Extend the existing scripts or create new scripts in the folder `scripts/`
 
-For the quick reference, maintain the file `scripts\commands.md` which will have detailed description and purpose, good categorization of commands you have added. 
+For the quick reference, maintain the file `scripts/commands.md` which will have detailed description and purpose, good categorization of commands you have added. 
 
-Use your best judgment when editing and managing these commands. Make sure to keep `scripts\commands.md` always up to date. 
+Use your best judgment when editing and managing these commands. Make sure to keep `scripts/commands.md` always up to date. 
+
+
+
+when you see any issues, record and describe them briefly, but with all essential information in `scripts/commands_issues.md` this could be a misuse or intermittent issue. Maybe you don't have full context to fix it now, so just record your observations there, this will allow to fix the issue later. this is a backlog! when issue is fixed, make sure to update  `scripts/commands_issues.md` . add short note if existing issue is persistent and repeat. Again, this is your secondary objective, if you cannot fix the issue now, record  your observation for later. Feel free to edit or even remove or replace content in `scripts/`  folder. I grant you full ownership over the content there, please use your best judgement. 
+
+
 
 Please note, this is very desired, but secondary and optional objective. 
