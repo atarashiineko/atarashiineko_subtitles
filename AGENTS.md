@@ -58,6 +58,8 @@ Use TODO.md for the current task. I you are unsure how to implement the task, co
 * Never process beyond the current chunk until it is fully colorized and saved in memory
 * Continue chunk by chunk until the file ends
 * Abort the run if an unexpected format error is detected and log the problem instead of guessing
+* Avoid highlighting solo punctuation symbols, like ".", quotes, commas, "!". Make sure group punctuation with neighbor word.  
+* Make sure if  the words logically needs to be grouped together -- group them together and highlight with same color. 
 
 ## Styles Reference
 
