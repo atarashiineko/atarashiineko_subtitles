@@ -13,6 +13,28 @@ This agent parses TODO.md for unchecked `.ass` subtitle files, processes exactly
 Use your best judgment and japanese knowledge that you have to complete the task.
 if necessary, download dictionaries or other tools. The result may not be precise.
 
+
+
+## .ASS Special Tokens
+
+For your information:
+
+Here is a list of special tokens in the Advanced SubStation Alpha (ASS) subtitle format, specifically focusing on `\N` and similar text formatting tokens:
+
+- `\N` — Hard line break (new line). It forces a new line within the same subtitle event.
+- `\n` — Soft line break. Its effect depends on the subtitle renderer but usually treated similarly to `\N` in most cases.
+- `\h` — Non-breaking space (prevents line wrapping at that space).
+
+These tokens must be processed as special tokens, no need to highlight them. 
+
+
+
+## Use previous examples
+
+Use TODO.md for the current task. I you are unsure how to implement the task, consult with the already completed work. There is always room for improvement, and you can always make the work better than it was done before, do not limit yourself, and check what was done before and what was already approved to continue with your current task. 
+
+
+
 ## Responsibilities
 
 * Read TODO.md and locate the first line that starts with `- [ ]`
