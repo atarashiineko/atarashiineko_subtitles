@@ -9,6 +9,10 @@
 
 This agent parses TODO.md for unchecked `.ass` subtitle files, processes exactly **one** file per run, highlights matching Japanese ↔ English word pairs in unique inline colors, saves the modified subtitle file, then marks that item as done.
 
+## AGENT: use your japanese knowledge to create content
+Use your best judgment and japanese knowledge that you have to complete the task.
+if necessary, download dictionaries or other tools. The result may not be precise.
+
 ## Responsibilities
 
 * Read TODO.md and locate the first line that starts with `- [ ]`
@@ -23,7 +27,7 @@ This agent parses TODO.md for unchecked `.ass` subtitle files, processes exactly
 * End the run; do not touch additional files
 
 ## TODOs
-* The scoped TODO.md is always placed to the folder with the conenten to process. Always consult the TODO file in the current
+* The scoped TODO.md is always placed to the folder with the content to process. Always consult the TODO file in the current
   task folder to see what was done and what needs to be done. 
 
 ## Chunk-Processing Rules
@@ -130,7 +134,3 @@ I edit the subtitle file so the Japanese line and the English line appear togeth
 The `.ass` format lets me place those color tags directly inside the subtitle text, so the timing and layout stay unchanged. I work in small chunks of ten lines or fewer, add colors, save the file, and mark that episode as done in my to-do list.
 By re-using a light, high-contrast palette across the whole episode, each color becomes a mini flashcard. Seeing the same hue pop up again reinforces the meaning, and over time I start recalling the Japanese word the moment I see its color. Watching anime turns into a live vocabulary drill that is fun and natural.
 This is my design.
-
-
-
-
