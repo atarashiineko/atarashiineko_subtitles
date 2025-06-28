@@ -156,3 +156,23 @@ I edit the subtitle file so the Japanese line and the English line appear togeth
 The `.ass` format lets me place those color tags directly inside the subtitle text, so the timing and layout stay unchanged. I work in small chunks of ten lines or fewer, add colors, save the file, and mark that episode as done in my to-do list.
 By re-using a light, high-contrast palette across the whole episode, each color becomes a mini flashcard. Seeing the same hue pop up again reinforces the meaning, and over time I start recalling the Japanese word the moment I see its color. Watching anime turns into a live vocabulary drill that is fun and natural.
 This is my design.
+
+
+
+## The requirement to automate routine repetitive commands. Secondary objective
+
+Read manual at:
+- scripts\task_scoped_command_wrappers_manual_index.md
+- scripts\task_scoped_bash_command_wrappers_manual.md
+- scripts\task_scoped_powershell_command_wrappers_manual.md
+- scripts\task_scoped_python_command_wrappers_manual.md
+
+Use your best judgement when you see a need to create a new script for repetitive command that you use. 
+
+Extend the existing scripts or create new scripts in the folder `scripts\`
+
+For the quick reference, maintain the file `scripts\commands.md` which will have detailed description and purpose, good categorization of commands you have added. 
+
+Use your best judgment when editing and managing these commands. Make sure to keep `scripts\commands.md` always up to date. 
+
+Please note, this is very desired, but secondary and optional objective. 
