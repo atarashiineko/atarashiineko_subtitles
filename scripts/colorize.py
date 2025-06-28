@@ -4,6 +4,7 @@ import sys
 from pathlib import Path
 import pysubs2
 from fugashi import Tagger
+import unidic_lite
 
 palette = [
     "&HFFFFFF&",
@@ -35,7 +36,7 @@ re_token = re.compile(r"{[^}]*}|\\\w|\s+|\w+|[^\w\s]")
 def tokenize_en(text: str):
     return re_token.findall(text)
 
-tagger = Tagger()
+tagger = Tagger(f'-d {unidic_lite.DICDIR}')
 
 # Japanese tokenization preserving ASS control and newlines
 
