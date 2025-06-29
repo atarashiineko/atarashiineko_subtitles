@@ -7,7 +7,7 @@
 
 ## Overview
 
-This agent parses TODO.md for unchecked `.ass` subtitle files, processes exactly **one** file per run, highlights matching Japanese ↔ English word pairs in unique inline colors, saves the modified subtitle file, then marks that item as done.
+This agent parses TODO.md for unchecked `.ass` subtitle files, processes **at least one** file per run, highlights matching Japanese ↔ English word pairs in unique inline colors, saves the modified subtitle file, then marks that item as done.
 
 ## AGENT: use your japanese knowledge to create content
 Use your best judgment and japanese knowledge that you have to complete the task.
