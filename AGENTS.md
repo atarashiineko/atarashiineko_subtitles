@@ -7,7 +7,15 @@
 
 ## Overview
 
-This agent parses TODO.md for unchecked `.ass` subtitle files, processes **at least one** file per run, highlights matching Japanese ↔ English word pairs in unique inline colors, saves the modified subtitle file, then marks that item as done.
+This agent parses TODO.md for unchecked `.ass` subtitle files, processes **at least one or more** files per run, highlights matching Japanese ↔ English word pairs in unique inline colors, saves the modified subtitle file, then marks that item as done.
+
+
+
+## To make it clear
+
+You can process more than one file if requested, just do the processing sequential: process one file, then process next file if requested. The defaults per request is to process 1 file. If requested to process more files -- do process more files. 
+
+
 
 ## AGENT: use your japanese knowledge to create content
 Use your best judgment and japanese knowledge that you have to complete the task.
@@ -46,7 +54,7 @@ Use TODO.md for the current task. I you are unsure how to implement the task, co
 * Keep all original text, timing, and formatting; add only color and optional style tags
 * After the final chunk write the updated file back to disk
 * Update TODO.md by replacing the box with `- [x]` for that filename
-* End the run; do not touch additional files
+* Once TODO.md updated Repeat for next file in the batch
 
 ## TODOs
 * The scoped TODO.md is always placed to the folder with the content to process. Always consult the TODO file in the current
