@@ -186,3 +186,20 @@ when you see any issues, record and describe them briefly, but with all essentia
 
 
 Please note, this is very desired, but secondary and optional objective. 
+
+
+
+## Final review
+
+At the end of your work, you must review the results and ensure your output is high quality. 
+
+Here is a checklist for final review: 
+
+- Confirm the first previously unchecked entry in TODO.md is now marked done
+- Spot-check several dialogue pairs to see that color tags reasonably match Japanese-English terms
+- Ensure colors remain legible against typical backgrounds and adjust only if readability is an issue
+- Validate timing, formatting, and tokens like `\N` are unchanged and functional
+- Make sure encoding, filenames, and folder structure are preserved
+- Review scripts and commands documentation only if new or modified scripts were introduced
+- Note any irregularities or potential improvements in scripts/commands_issues.md
+- Confirm that only the intended subtitle file, TODO.md, and deliberate script edits are committed
