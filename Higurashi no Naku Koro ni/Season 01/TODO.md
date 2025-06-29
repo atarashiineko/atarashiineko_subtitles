@@ -16,11 +16,11 @@
 - [x] (Hi10)_Higurashi_no_Naku_Koro_ni_-_15_(DVD_480p)_(Exiled-Destiny).ja-en.ass
 - [x] (Hi10)_Higurashi_no_Naku_Koro_ni_-_16_(DVD_480p)_(Exiled-Destiny).ja-en.ass
 - [x] (Hi10)_Higurashi_no_Naku_Koro_ni_-_17_(DVD_480p)_(Exiled-Destiny).ja-en.ass
-- [ ] (Hi10)_Higurashi_no_Naku_Koro_ni_-_18_(DVD_480p)_(Exiled-Destiny).ja-en.ass
-- [ ] (Hi10)_Higurashi_no_Naku_Koro_ni_-_19_(DVD_480p)_(Exiled-Destiny).ja-en.ass
-- [ ] (Hi10)_Higurashi_no_Naku_Koro_ni_-_20_(DVD_480p)_(Exiled-Destiny).ja-en.ass
-- [ ] (Hi10)_Higurashi_no_Naku_Koro_ni_-_21_(DVD_480p)_(Exiled-Destiny).ja-en.ass
-- [ ] (Hi10)_Higurashi_no_Naku_Koro_ni_-_22_(DVD_480p)_(Exiled-Destiny).ja-en.ass
+- [x] (Hi10)_Higurashi_no_Naku_Koro_ni_-_18_(DVD_480p)_(Exiled-Destiny).ja-en.ass
+- [x] (Hi10)_Higurashi_no_Naku_Koro_ni_-_19_(DVD_480p)_(Exiled-Destiny).ja-en.ass
+- [x] (Hi10)_Higurashi_no_Naku_Koro_ni_-_20_(DVD_480p)_(Exiled-Destiny).ja-en.ass
+- [x] (Hi10)_Higurashi_no_Naku_Koro_ni_-_21_(DVD_480p)_(Exiled-Destiny).ja-en.ass
+- [x] (Hi10)_Higurashi_no_Naku_Koro_ni_-_22_(DVD_480p)_(Exiled-Destiny).ja-en.ass
 - [ ] (Hi10)_Higurashi_no_Naku_Koro_ni_-_23_(DVD_480p)_(Exiled-Destiny).ja-en.ass
 - [ ] (Hi10)_Higurashi_no_Naku_Koro_ni_-_24_(DVD_480p)_(Exiled-Destiny).ja-en.ass
 - [ ] (Hi10)_Higurashi_no_Naku_Koro_ni_-_25_(DVD_480p)_(Exiled-Destiny).ja-en.ass
