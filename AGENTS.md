@@ -58,8 +58,10 @@ Use TODO.md for the current task. I you are unsure how to implement the task, co
 * Never process beyond the current chunk until it is fully colorized and saved in memory
 * Continue chunk by chunk until the file ends
 * Abort the run if an unexpected format error is detected and log the problem instead of guessing
-* Avoid highlighting solo punctuation symbols, like ".", quotes, commas, "!". Make sure group punctuation with neighbor word.  
-* Make sure if  the words logically needs to be grouped together -- group them together and highlight with same color. 
+* Avoid highlighting solo punctuation symbols like ".", quotes, commas or "!". Always group them with the neighboring word.
+* If punctuation belongs to the word, keep it inside the same color span. Examples: "Don't", "boy," and "Kei-chan" should each be colored as a single token.
+* Hyphenated or contracted expressions are treated as one unit. Apply one color tag over the entire expression, e.g. "O-Okay" or "I'm".
+* Make sure words that logically belong together are grouped and highlighted with the same color.
 
 ## Styles Reference
 
